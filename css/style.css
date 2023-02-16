@@ -547,7 +547,7 @@ div#preloader {
 }
 
 .graph_area .stack5 span {
-  animation: stack4 4s 1;
+  animation: stack5 4s 1;
   background: rgb(247, 162, 162);
 }
 
@@ -592,7 +592,7 @@ div#preloader {
   }
 
   100% {
-    width: 80%;
+    width: 90%;
   }
 }
 
@@ -622,7 +622,7 @@ div#preloader {
   }
 
   100% {
-    width: 90%;
+    width: 85%;
   }
 }
 
@@ -707,10 +707,11 @@ i {
   position: relative;
 }
 
-.single-services .services-icon{
+.single-services .services-icon {
   display: block;
 }
-.single-services .story-menu{
+
+.single-services .story-menu {
   border: 1px solid #3EC1D5;
   border-radius: 20px;
   background-color: #3EC1D5;
@@ -763,7 +764,9 @@ i {
   height: 1px;
   border-bottom: 1px solid #888;
 }
-.timeline-left>div, .timeline-right>div{
+
+.timeline-left>div,
+.timeline-right>div {
   width: 8px;
   height: 8px;
   border-radius: 50%;
@@ -771,10 +774,12 @@ i {
   position: absolute;
   top: -4px;
 }
-.timeline-left>div{
+
+.timeline-left>div {
   left: 0;
 }
-.timeline-right>div{
+
+.timeline-right>div {
   right: 0;
 }
 
@@ -1022,117 +1027,31 @@ i {
 /*  14.Contact Area
 /*--------------------------------*/
 
-.contact-area {
-  height: auto;
-  width: 100%;
+#contact #form {
+  background-color: #3cd6ed;
+  padding: 40px 0;
+  border-radius: 80px 0 80px 0;
 }
 
-.contact-content {
-  padding: 100px;
-  background: #000 none repeat scroll 0 0;
+#contact #form .field {
+  margin: 20px 0;
+  position: relative;
 }
 
-.contact-content-right {
-  padding: 100px;
-}
-
-.contact-form input[type="text"],
-.contact-form input[type="email"] {
-  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  border: 1px solid #ccc;
-  border-radius: 0;
-  color: #444;
-  height: 40px;
-  margin-bottom: 16px;
-  padding-left: 20px;
-  width: 100%;
-}
-
-.contact-form textarea {
-  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  border: 1px solid #ccc;
-  border-radius: 0;
-  color: #444;
-  height: 140px;
-  padding: 20px;
-  width: 100%;
-}
-
-.contact-form button[type="submit"] {
-  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  border: 1px solid #ccc;
-  color: #444;
-  font-size: 16px;
-  font-weight: 700;
-  margin-top: 8px;
-  padding: 12px 30px;
-  text-transform: uppercase;
-  transition: all 0.3s ease 0s;
-  border-radius: 30px;
-}
-
-.contact-form button[type=submit]:hover {
+#contact #form .field label {
+  /* display: none; */
+  position: absolute;
+  left: 20%;
+  font-size: 18px;
   color: #fff;
-  border: 1px solid #3EC1D5;
-  background: #3EC1D5;
 }
 
-.contact-form #sendmessage {
-  color: #3EC1D5;
-  border: 1px solid #3EC1D5;
-  display: none;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
+#contact #form .field input {
+  width: 360px;
 }
 
-.contact-form #errormessage {
-  color: red;
-  display: none;
-  border: 1px solid red;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-.contact-form #sendmessage.show,
-.contact-form #errormessage.show,
-.contact-form .show {
-  display: block;
-}
-
-#contact .form .validation {
-  color: red;
-  display: none;
-  margin: 0 0 20px;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-.single-icon i {
-  font-size: 24px;
-  width: 50px;
-  height: 50px;
-  border: 1px solid #444;
-  line-height: 46px;
-  border-radius: 50%;
-  margin-bottom: 20px;
-}
-
-.single-icon p {
-  font-size: 16px;
-  line-height: 30px;
-}
-
-.contact-icon {
-  margin-bottom: 40px;
-}
-
-#google-map {
-  height: 370px;
-  margin-bottom: 20px;
+#contact #form .field .input2 {
+  height: 200px;
 }
 
 /*----------------------------------------*/
