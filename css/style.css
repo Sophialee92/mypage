@@ -235,9 +235,10 @@ div#preloader {
 
 .sec-head {
   display: inline-block;
-  font-size: 17px;
-  font-weight: 600;
-  margin-bottom: 0;
+  font-size: 30px;
+  line-height: 1.5em;
+  font-weight: 900;
+  margin-bottom: 15px;
   padding: 0 0 10px;
   text-transform: uppercase;
   transition: all 0.4s ease 0s;
@@ -470,6 +471,17 @@ div#preloader {
   background-color: #f9f9f9;
 }
 
+.single-well .pic {
+  display: flex;
+  width: 100%;
+}
+
+.single-well .pic img {
+  width: 50%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .single-well>a {
   display: block;
 }
@@ -488,6 +500,8 @@ div#preloader {
 
 .single-well p {
   color: #444;
+  font-size: 20px;
+  line-height: 1.5em;
 }
 
 .graph_area {
@@ -996,6 +1010,8 @@ i {
   height: 100%;
   width: 100%;
 }
+
+
 
 /*----------------------------------------*/
 
