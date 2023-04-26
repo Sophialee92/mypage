@@ -471,7 +471,19 @@ div#preloader {
   background-color: #f9f9f9;
 }
 
-.single-well .pic {
+.single-well {
+  /* padding-right: 3em; */
+}
+
+.single-well img {
+  width: auto;
+}
+
+.single-well h4 {
+  margin-top: 1em;
+}
+
+/* .single-well .pic {
   display: flex;
   width: 100%;
 }
@@ -480,7 +492,7 @@ div#preloader {
   width: 50%;
   flex-direction: row;
   justify-content: space-between;
-}
+} */
 
 .single-well>a {
   display: block;

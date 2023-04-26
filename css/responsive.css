@@ -292,7 +292,7 @@
   }
 
   .well-middle .single-well {
-    margin-top: 30px;
+    /* margin-top: 30px; */
   }
 
   .single-skill {
@@ -359,6 +359,7 @@
     text-align: center;
     display: block;
   }
+
   .single-well p {
     font-size: 13px;
     text-align: center;
