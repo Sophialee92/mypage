@@ -440,8 +440,12 @@
     display: none;
   }
 
-  .single-services {
+  .single-services .service1 {
     height: 460px;
+  }
+
+  .single-services .service2 {
+    height: 600px;
   }
 
   .single-services .time1 {
