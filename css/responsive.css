@@ -468,6 +468,14 @@
     top: 360px;
   }
 
+  .single-services .time7 {
+    top: 480px;
+  }
+
+  .single-services .time8 {
+    top: 600px;
+  }
+
   .story-menu-box .timeline-left,
   .story-menu-box .timeline-right {
     display: none;
