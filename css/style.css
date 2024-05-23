@@ -729,7 +729,7 @@ i {
 }
 
 .single-services {
-  height: 640px;
+  height: 840px;
   position: relative;
 }
 
@@ -776,6 +776,15 @@ i {
 .single-services .time6 {
   top: 550px;
 }
+
+.single-services .time7 {
+  top: 590px;
+}
+
+.single-services .time8 {
+  top: 690px;
+}
+
 
 .story-menu-box {
   width: 100%;
@@ -840,6 +849,11 @@ i {
 .story-menu-box .timeline5 {
   width: 36%;
 }
+
+.story-menu-box .timeline7, .story-menu-box .timeline8 {
+  width: 36%;
+}
+
 
 .story-menu-box .story-time {
   margin-bottom: 12px;
